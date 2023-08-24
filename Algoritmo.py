@@ -3,7 +3,7 @@ import os
 
 def ver_quartos():
     while True:
-        try:
+            os.system("cls")
             print("Esses são os quartos disponiveis: ")
             print("[01] - AP Simples")
             print("[02] - AP Simples Casal")
@@ -12,47 +12,42 @@ def ver_quartos():
             print("[05] - AP Luxo")
             print("[06] - AP Master")
             print("[07] - voltar")
-
-            quarto=(input("Digite a opção que deseja: "))
-
-            match quarto:
+            menu_quartos = input("Digite o número correspondente a opção que deseja: ")
+            match menu_quartos:
                 case "1":
-                    ver_quartos
+                    print("")
                 case "2":
-                    ver_quartos
+                    print("")
                 case "3":
-                    ver_quartos
+                    print("")
                 case "4":
-                    ver_quartos
+                    print("")
                 case "5":
-                    ver_quartos
+                    print("")
                 case "6":
-                
-
-                    break
+                    print("")
                     
+                case "7":
+                    print("Voltando...")
+                    os.system("pause")
+                    break
+                
                 case _:
                     print ("Opção inválida")
-            
-            os.system("pause")
-            os.system("cls")
-            break   
-        except:
-            print("Erro, opção inválida. Tente novamente.")
-            os.system("pause")
-            os.system("cls")
+                    os.system("pause")
+                    os.system("cls") 
 
 def main():
     while True:
         try:
         # Tratamento de erro
-           
+            os.system("cls") 
             print("Bem-vindos a um refúgio de elegância e conforto ")
             print("[01] - Ver quartos")
             print("[02] - Realizar Hospedagem")
             print("[03] - Sair")
 
-            menu=input("Digite o número correspondente ao quarto que gostaria de visitar: ")
+            menu=input("Digite o número correspondente a opção que deseja: ")
           
             match menu:
                 case "1":
@@ -70,13 +65,7 @@ def main():
                     os.system("cls") 
                 # Tratamento de erro, ou seja, caso ocorra um erro fazer:
 
-        
-        
         except:
             print("Erro, opção inválida. Tente novamente.")
             os.system("pause")
-            os.system("cls") 
-        
-
-            
-        
+            os.system("cls")
