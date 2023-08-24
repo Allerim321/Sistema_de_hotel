@@ -6,11 +6,9 @@ class Hotel:
         print ("")
     
 class Quartos(Hotel):
-    def reserva(self, nome, telefone, data_inicio, data_fim, ocupado = 0):
+    def reserva(self, nome, telefone, ocupado = 0):
         self.nome=nome
         self.telefone=telefone
-        self.data_inicio = data_inicio
-        self.data_fim = data_fim
 
         if ocupado == 1:
             print("Um quarto está reservado")
