@@ -17,7 +17,7 @@ def ver_quartos():
             match menu_quartos:
 
                 case "1":
-                   
+                    
                     os.system("pause")
 
                 case "2":
