@@ -62,12 +62,10 @@ def ver_quartos():
 
 
 def hospedagem():
-    while True:
-        print("Opções disponíveis:\n")
-        listar=Hotel()
-        listar.listar()
-        os.system("pause")
-        break
+    listar=Hotel()
+    listar.listar()
+    os.system("pause")
+    os.system("cls")
 
 def main():
     while True:

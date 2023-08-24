@@ -3,6 +3,7 @@ from Algoritmo import *
 class Hotel:
     
     def listar(self):
+        print("Opções disponíveis:\n")
         self.lista=[]
         for n in self.lista:
             print (self.lista)
