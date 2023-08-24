@@ -4,8 +4,39 @@ import os
 def ver_quartos():
     while True:
         try:
-            print("Os quartos")
+            print("Esses são os quartos disponiveis: ")
+            print("[01] - AP Simples")
+            print("[02] - AP Simples Casal")
+            print("[03] - AP Duplo")
+            print("[04] - AP Duplo Casal")
+            print("[05] - AP Luxo")
+            print("[06] - AP Master")
+            print("[07] - voltar")
 
+            quarto=(input("Digite a opção que deseja: "))
+
+            match quarto:
+                case "1":
+                    ver_quartos
+                case "2":
+                    ver_quartos
+                case "3":
+                    ver_quartos
+                case "4":
+                    ver_quartos
+                case "5":
+                    ver_quartos
+                case "6":
+                
+
+                    break
+                    
+                case _:
+                    print ("Opção inválida")
+            
+            os.system("pause")
+            os.system("cls")
+            break   
         except:
             print("Erro, opção inválida. Tente novamente.")
             os.system("pause")
@@ -25,9 +56,9 @@ def main():
           
             match menu:
                 case "1":
-                    print(" ")
+                    ver_quartos()
                 case "2":
-                    print("Vo")
+                    print("Você escolheu a opção pra realizar a hospedagem de um quarto \n esses são os quartos disponiveis \n")
                 case "3":
                     print("Saindo...")
                     os.system("pause")
