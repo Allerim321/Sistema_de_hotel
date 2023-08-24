@@ -64,8 +64,12 @@ def ver_quartos():
 def hospedagem():
     listar=Hotel()
     listar.listar()
+    kiwi=(input("Digite o nome do quarto que queira escolher."))
+    listar.excluir(kiwi)
+    print("OK")
     os.system("pause")
     os.system("cls")
+
 
 def main():
     while True:
