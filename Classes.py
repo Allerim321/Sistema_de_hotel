@@ -18,6 +18,7 @@ class Ap_luxo(Quartos):
     def informações(self):
            print("Este requintado apartamento de luxo é um verdadeiro exemplo de elegância e sofisticação. Localizado em um dos bairros mais exclusivos da cidade, oferece vistas deslumbrantes da paisagem urbana e do horizonte. Com um design inovador contemporâneo e materiais de alta qualidade, cada detalhe deste apartamento foi cuidadosamente pensado para criar um ambiente de conforto e opulência.")
            print("A diária é R$ 3000 mil")
+           
 
 class Ap_Master(Quartos):
     def informações(self):

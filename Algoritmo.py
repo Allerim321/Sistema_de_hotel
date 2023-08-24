@@ -67,6 +67,7 @@ def hospedagem():
         listar=Hotel()
         listar.listar()
         os.system("pause")
+        break
 
 def main():
     while True:
