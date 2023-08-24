@@ -41,3 +41,5 @@ class Ap_Duplo(Quartos):
 class Ap_Duplo_casal(Quartos):
     def listar_ap_duplo_casal(self):
        
+
+os.system('cls')
