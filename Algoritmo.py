@@ -3,6 +3,7 @@ import os
 
 def ver_quartos():
     while True:
+        try:
             os.system("cls")
             print("Esses são os quartos disponiveis: ")
             print("[01] - AP Simples")
@@ -48,7 +49,16 @@ def ver_quartos():
                 case _:
                     print ("Opção inválida")
                     os.system("pause")
-                    os.system("cls") 
+                    os.system("cls")
+        except:
+            print("Erro, opção inválida. Tente novamente.")
+            os.system("pause")
+            os.system("cls")
+
+
+def hospedagem():
+    os.system("cls")
+    print()
 
 def main():
     while True:

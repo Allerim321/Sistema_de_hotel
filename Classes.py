@@ -3,7 +3,6 @@ from Algoritmo import *
 
 class Hotel:
     def listar(self):
-        
         print ("")
     
 class Quartos(Hotel):
