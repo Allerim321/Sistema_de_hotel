@@ -17,35 +17,34 @@ def ver_quartos():
             match menu_quartos:
 
                 case "1":
-                    
-                    os.system("pause")
+                    ap_simples = Ap_Simples
+                    ap_simples.listar_ap_simples()
 
                 case "2":
-                   
-                    os.system("pause")
+                    ap_simples_casal = Ap_Simples_casal
+                    ap_simples_casal.listar_ap_simples_casal()
 
                 case "3":
-                    
-                    os.system("pause")
+                    ap_duplo = Ap_Duplo
+                    ap_duplo.listar_ap_duplo()
 
                 case "4":
-                    
-                    os.system("pause")
+                    ap_duplo_casal = Ap_Duplo_casal
+                    ap_duplo_casal.listar_ap_duplo_casal()
 
                 case "5":
-                    
-                    os.system("pause")
+                    ap_luxo = Ap_luxo
+                    ap_luxo.listar_ap_luxo()
 
                 case "6":
-                    
-                    os.system("pause")
-                    
-                    
+                    ap_Master = Ap_Master
+                    ap_Master.listar_ap_master()
+
                 case "7":
                     print("Voltando...")
                     os.system("pause")
                     break
-                
+
                 case _:
                     print ("Opção inválida")
                     os.system("pause")
