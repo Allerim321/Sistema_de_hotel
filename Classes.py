@@ -20,20 +20,40 @@ class Ap_luxo(Quartos):
 
 class Ap_Master(Quartos):
     def listar_ap_master(self, ocupado=0):
-        print("")
+
+        if ocupado == 1:
+            print("Um quarto está reservado")
+        elif ocupado == 2:
+            print("Todos os quartos estão reservados")
 
 class Ap_Simples(Quartos):
     def listar_ap_simples(self, ocupado=0):
-        print("")
+
+        if ocupado == 1:
+            print("Um quarto está reservado")
+        elif ocupado == 2:
+            print("Todos os quartos estão reservados")
 
 class Ap_Simples_casal(Quartos):
     def listar_ap_simples_casal(self, ocupado=0):
-        print("")
+        
+        if ocupado == 1:
+            print("Um quarto está reservado")
+        elif ocupado == 2:
+            print("Todos os quartos estão reservados")
 
 class Ap_Duplo(Quartos):
     def listar_ap_duplo(self, ocupado=0):
-        print("")
+        
+        if ocupado == 1:
+            print("Um quarto está reservado")
+        elif ocupado == 2:
+            print("Todos os quartos estão reservados")
 
 class Ap_Duplo_casal(Quartos):
     def listar_ap_duplo_casal(self, ocupado=0):
-        print("")
+        
+        if ocupado == 1:
+            print("Um quarto está reservado")
+        elif ocupado == 2:
+            print("Todos os quartos estão reservados")
