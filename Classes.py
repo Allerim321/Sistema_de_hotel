@@ -4,9 +4,8 @@ class Hotel:
     
     def listar(self):
         print("Opções disponíveis:\n")
-        self.dic={'Simples':2, 'Simples casal':2, 'Duplo':2, 'Duplo casal':2, 'Luxo': 2, 'Master': 2}
-        for n in self.dic:
-            print (self.dic)
+        self.dic={'Simples':'R$200,00', 'Simples(2)':'R$200,00', 'Simples casal':'R$250,00', 'Simples casal(2)':'R$250,00', 'Duplo':'R$350,00', 'Duplo(2)':'R$350,00', 'Duplo casal':'R$400,00', 'Duplo casal(2)':'R$400,00', 'Luxo': 'R$3000,00', 'Luxo(2)': 'R$3000,00', 'Master': 'R$3500,00', 'Master(2)': 'R$3500,00'}
+        print (self.dic)
 
     def excluir(self,x):
         self.dic.pop(x)
