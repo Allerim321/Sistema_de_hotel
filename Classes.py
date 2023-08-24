@@ -3,7 +3,6 @@ from Algoritmo import *
 
 class Hotel:
     def listar(self):
-        
         print ("")
     
 class Quartos(Hotel):
@@ -20,51 +19,33 @@ class Quartos(Hotel):
 
 class Ap_luxo(Quartos):
     def listar_ap_luxo(self):
-        banana=input("O quarto de luxo possui um amplo espaço com vista exclusiva e poltronas confortáveis.\nDigite 1 para confirmar o agendamento do quarto. Precione qualquer outra tecla para sair.")
-        if banana=="1":
-            Quartos.ocupado+1
-        else:
-            os.system('cls')
+        print("Este requintado apartamento de luxo é um verdadeiro exemplo de elegância e sofisticação. Localizado em um dos bairros mais exclusivos da cidade, oferece vistas deslumbrantes da paisagem urbana e do horizonte. Com um design inovador contemporâneo e materiais de alta qualidade, cada detalhe deste apartamento foi cuidadosamente pensado para criar um ambiente de conforto e opulência.")
+        os.system("pause")
             
 
 class Ap_Master(Quartos):
     def listar_ap_master(self):
-        kiwi=input("O quarto master é o mais espaçoso e com a melhor vista, contando com uma ampla varanda, poltronas confortáveis e 5 cômodos separados por portas.\nDigite 1 para confirmar o agendamento do quarto. Precione qualquer outra tecla para sair.")
-        if kiwi==1:
-            Quartos.ocupado+1
-        else:
-            os.system('cls')
+        print("Este magnífico apartamento master redefine o conceito de luxo e exclusividade. Localizado no topo de um edifício icônico, oferece uma vista panorâmica deslumbrante da cidade que se estende até onde os olhos podem alcançar. Projetado para quem busca o auge do conforto e sofisticação, este apartamento encapsula o estilo de vida elevado.")
+        os.system("pause")
 
 
 class Ap_Simples(Quartos):
     def listar_ap_simples(self):
-        açaí=input("O apartamento simples possui um tamanho ideal para seu conforto, com uma cama de solteiro, mobílias necessárias e uma pequena varanda para apreciar a vista.\nDigite 1 para confirmar o agendamento do quarto. Precione qualquer outra tecla para sair.")
-        if açaí==1:
-            Quartos.ocupado+1
-        else:
-            os.system('cls')
+        print("Este encantador apartamento simples é um espaço acolhedor e funcional, perfeito para quem valoriza a simplicidade e a praticidade. Localizado em um bairro tranquilo, oferece uma atmosfera serena e aconchegante, ideal para relaxar após um longo dia.")
+        os.system("pause")
 
 
 class Ap_Simples_casal(Quartos):
     def listar_ap_simples_casal(self):
-        maçã=input("O apartamento simples de casal possui um tamanho ideal para seu conforto, com uma cama de casal, mobílias necessárias e uma pequena varanda para apreciar a vista.\nDigite 1 para confirmar o agendamento do quarto. Precione qualquer outra tecla para sair.")
-        if maçã==1:
-            Quartos.ocupado+1
-        else:
-            os.system('cls')
+        print("Este charmoso apartamento simples de casal é um refúgio acolhedor e íntimo, projetado para acomodação o amor e a convivência. Localizado em um bairro tranquilo, oferece um espaço onde o conforto e a funcionalidade são de maneira harmoniosa. ")
+        os.system("pause")
 
 class Ap_Duplo(Quartos):
     def listar_ap_duplo(self):
-        pera=input("O apartamento duplo possui um tamanho ideal para seu conforto, com duas camas de solteiro, mobílias necessárias e uma pequena varanda para apreciar a vista.\nDigite 1 para confirmar o agendamento do quarto. Precione qualquer outra tecla para sair.")
-        if pera==1:
-            Quartos.ocupado+1
-        else:
-            os.system('cls')
+        print("Este moderno apartamento duplo é uma solução elegante e prática para acomodar duas pessoas com estilo e conforto. Localizado em um bairro vibrante, oferece um espaço versátil onde cada morador pode desfrutar de sua própria privacidade, ao mesmo tempo em que reúne uma atmosfera de convivência harmoniosa.")
+        os.system("pause")
 
 class Ap_Duplo_casal(Quartos):
     def listar_ap_duplo_casal(self):
-        morango=input("O apartamento duplo de casal possui um tamanho ideal para seu conforto, com duas camas de casal, mobílias necessárias e uma pequena varanda para apreciar a vista.\nDigite 1 para confirmar o agendamento do quarto. Precione qualquer outra tecla para sair.")
-        if morango==1:
-            Quartos.ocupado+1
-        else:
-            os.system('cls')
+        print("Este encantador apartamento duplo para casal é um espaço versátil e convidativo, projetado para oferecer acomodação confortável e flexível para dois casais. Situado num bairro tranquilo e de fácil acesso, este apartamento oferece uma combinação de privacidade e convivência.")
+        os.system("pause")
