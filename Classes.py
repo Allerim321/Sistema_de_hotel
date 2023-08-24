@@ -24,7 +24,7 @@ class Ap_Master(Quartos):
         print("")
 
 class Ap_Simples(Quartos):
-    def listar_ap_simples(self,):
+    def listar_ap_simples(self):
         print("")
 
 class Ap_Simples_casal(Quartos):
