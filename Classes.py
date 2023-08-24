@@ -4,7 +4,7 @@ class Hotel:
     
     def listar(self):
         print("Opções disponíveis:\n")
-        self.dic={}
+        self.dic={'Simples':2, 'Simples casal':2, 'Duplo':2, 'Duplo casal':2, 'Luxo': 2, 'Master': 2}
         for n in self.dic:
             print (self.dic)
 
