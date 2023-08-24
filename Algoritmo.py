@@ -15,30 +15,30 @@ def ver_quartos():
             print("[07] - voltar")
             menu_quartos = input("Digite o número correspondente a opção que deseja: ")
             match menu_quartos:
-
+                
                 case "1":
                     ap_simples = Ap_Simples
-                    ap_simples.listar_ap_simples()
+                    ap_simples.informações()
 
                 case "2":
                     ap_simples_casal = Ap_Simples_casal
-                    ap_simples_casal.listar_ap_simples_casal()
+                    ap_simples_casal.informações()
 
                 case "3":
                     ap_duplo = Ap_Duplo
-                    ap_duplo.listar_ap_duplo()
+                    ap_duplo.informações()
 
                 case "4":
                     ap_duplo_casal = Ap_Duplo_casal
-                    ap_duplo_casal.listar_ap_duplo_casal()
+                    ap_duplo_casal.informações()
 
                 case "5":
                     ap_luxo = Ap_luxo
-                    ap_luxo.listar_ap_luxo()
+                    ap_luxo.informações()
 
                 case "6":
                     ap_Master = Ap_Master
-                    ap_Master.listar_ap_master()
+                    ap_Master.informações()
 
                 case "7":
                     print("Voltando...")
