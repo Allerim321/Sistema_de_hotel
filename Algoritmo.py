@@ -65,10 +65,14 @@ def hospedagem():
     listar=Hotel()
     listar.listar()
     kiwi=(input("Digite o nome (idêntico) do quarto que queira escolher."))
-    listar.excluir(kiwi)
-    print("OK")
-    os.system("pause")
-    os.system("cls")
+    if kiwi in listar.dic:
+        listar.excluir(kiwi)
+        print("OK, quarto reservado.")
+        os.system("pause")
+        os.system("cls")
+    else:
+        print("Opção inválida, tente novamente.")
+        os.system("pause")
 
 
 def main():
