@@ -1,4 +1,6 @@
 class Hotel:
+    def hotel():
+        print("")
     
 class Quartos(Hotel):
     def add_quarto():
