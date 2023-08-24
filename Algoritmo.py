@@ -91,5 +91,3 @@ def main():
             print("Erro, opção inválida. Tente novamente.")
             os.system("pause")
             os.system("cls")
-
-            kkkkkkkkkkkkkkkkkkkkkkkkkkkkk

@@ -2,6 +2,7 @@ import os
 from Algoritmo import *
 
 class Hotel:
+    lista=[]
     def listar(self):
         print ("")
     
