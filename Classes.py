@@ -21,11 +21,11 @@ class Ap_luxo(Quartos):
 
 class Ap_Master(Quartos):
     def listar_ap_master(self):
-         print("")
+        print("")
 
 class Ap_Simples(Quartos):
     def listar_ap_simples(self,):
-         print("")
+        print("")
 
 class Ap_Simples_casal(Quartos):
     def listar_ap_simples_casal(self):
@@ -33,7 +33,7 @@ class Ap_Simples_casal(Quartos):
 
 class Ap_Duplo(Quartos):
     def listar_ap_duplo(self):
-         print("")
+        print("")
 
 class Ap_Duplo_casal(Quartos):
     def listar_ap_duplo_casal(self):
