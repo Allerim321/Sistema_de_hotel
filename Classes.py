@@ -12,7 +12,11 @@ class Quartos(Hotel):
 
 class Ap_luxo(Quartos):
     def listar_ap_luxo(self, ocupado=0):
-        print("")
+        
+        if ocupado == 1:
+            print("Um quarto está reservado")
+        elif ocupado == 2:
+            print("Todos os quartos estão reservados")
 
 class Ap_Master(Quartos):
     def listar_ap_master(self, ocupado=0):
