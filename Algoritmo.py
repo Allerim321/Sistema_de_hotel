@@ -25,9 +25,9 @@ def main():
           
             match menu:
                 case "1":
-                    print("Você escolheu o AP simples algumas informações vão estar listadas abaixo: \n")
+                    print(" ")
                 case "2":
-                    print("Você escolheu o AP Simples algumas informações vão estar listadas abaixo: \n")
+                    print("Vo")
                 case "3":
                     print("Saindo...")
                     os.system("pause")
