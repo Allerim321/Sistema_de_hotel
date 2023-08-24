@@ -1,10 +1,14 @@
 class Hotel:
-    def hotel(self):
+    def listar(self):
+        
         print ("")
     
 class Quartos(Hotel):
-    def add_quarto(self, ocupado=0):
-        print("")
+    def reserva(self, nome, telefone, quarto):
+        self.nome=nome
+        self.telefone=telefone
+        self.quarto=quarto
+        
 
 class Ap_luxo(Quartos):
     def listar_ap_luxo(self, ocupado=0):
