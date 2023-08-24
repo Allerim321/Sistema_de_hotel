@@ -62,8 +62,11 @@ def ver_quartos():
 
 
 def hospedagem():
-    os.system("cls")
-    print()
+    while True:
+        print("Opções disponíveis:\n")
+        listar=Hotel()
+        listar.listar()
+        os.system("pause")
 
 def main():
     while True:
@@ -81,7 +84,7 @@ def main():
                 case "1":
                     ver_quartos()
                 case "2":
-                    print("Você escolheu a opção pra realizar a hospedagem de um quarto \n esses são os quartos disponiveis \n")
+                    hospedagem()
                 case "3":
                     print("Saindo...")
                     os.system("pause")

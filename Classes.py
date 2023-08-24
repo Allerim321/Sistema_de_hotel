@@ -2,19 +2,17 @@ import os
 from Algoritmo import *
 
 class Hotel:
-    lista=[]
+    
     def listar(self):
-        print ("")
+        self.lista=[]
+        for n in self.lista:
+            print (self.lista)
+
     
 class Quartos(Hotel):
-    def reserva(self, nome, telefone, ocupado = 0):
+    def reserva(self, nome, telefone):
         self.nome=nome
         self.telefone=telefone
-
-        if ocupado == 1:
-            print("Um quarto está reservado")
-        elif ocupado == 2:
-            print("Todos os quartos estão reservados")
         
 
 class Ap_luxo(Quartos):
