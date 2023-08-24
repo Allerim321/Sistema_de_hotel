@@ -1,4 +1,3 @@
-import os
 from Algoritmo import *
 
 class Hotel:
